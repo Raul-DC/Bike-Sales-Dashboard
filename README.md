@@ -41,31 +41,45 @@
    =IF(L15>54,"Old",IF(L15>=31,"Middle Age",IF(L15<31,"Adolescent","Invalid")))
    ```
 
-## 📊 Paso 3: Tablas Dinámicas (Pivot Tables)
+## 📐 Paso 3: Tablas Dinámicas (Pivot Tables)
 1. **Ingreso promedio por género**:
    - Rows: Gender
    - Columns: Purchased Bike
    - Values: Average of Income
 
-   ![Tabla ingreso](https://i.imgur.com/ejemplo3.png)  
-   *Captura: Tabla dinámica de ingresos promedio*
+   ![image](https://github.com/user-attachments/assets/6e020412-7e80-4516-bb1d-6125041b6e90)
 
-2. **Distancia de viaje**:
+2. **Distancia de viaje al trabajo de cada cliente**:
    - Rows: Commute Distance
    - Values: Count of Purchased Bike
    - (Tuve que ajustar "10+ Miles" → "More than 10 Miles")
+  
+   ![image](https://github.com/user-attachments/assets/e3f3a5bb-c009-469e-be36-e206bad57d80)
 
 3. **Rangos de edad**:
    - Rows: Age Brackets
    - Values: Count of Purchased Bike
+  
+   ![image](https://github.com/user-attachments/assets/414b556e-f671-48ca-88e3-8955dcbd078e)
 
-## 📈 Paso 4: Visualizaciones
+4. **Rasgos de un cliente ideal**:
+   - Rows: Income, Commute Distance y Cars
+   - Columns: Purchased Bike
+   - Values: Count of ID
+     
+   ![image](https://github.com/user-attachments/assets/836df74c-c322-4979-bf32-29b64b3189c6)
+
+   
+
+## 📊📈 Paso 4: Visualizaciones
 1. **Gráficos de columnas**:
    - Para cada tabla dinámica creé gráficos clustered column
    - Añadí títulos y formato profesional
 
-   ![Gráficos columnas](https://i.imgur.com/ejemplo4.png)  
-   *Captura: Gráficos de ingresos y rangos de edad*
+   ![image](https://github.com/user-attachments/assets/8d11341d-7387-4902-b73e-13a0fdb5347c)
+   ![image](https://github.com/user-attachments/assets/310328a5-fd3c-41a3-b5ae-2af157f42aae)
+   ![image](https://github.com/user-attachments/assets/ac81373d-97f5-4b6d-bf5f-87e5850771b7)
+
 
 2. **Gráfico de anillos (cliente ideal)**:
    - Tipo: Doughnut Chart
