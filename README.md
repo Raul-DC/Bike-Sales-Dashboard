@@ -2,7 +2,10 @@
 # Proyecto Excel: Análisis de Ventas de Motocicletas
 
 ## 📌 Introducción
- Este proyecto guía paso a paso la creación de un dashboard interactivo en Excel para analizar patrones de compra de motocicletas, utilizando técnicas profesionales de análisis de datos.
+ Este proyecto guía paso a paso la creación de un dashboard interactivo en Excel para analizar patrones de compra de motocicletas, utilizando técnicas profesionales de análisis de datos. Así se ve el Dataset Inicial:
+
+![image](https://github.com/user-attachments/assets/22db5ed9-2a98-4374-8d36-dd0e12e3b6e9)
+
 
 ## 🔍 Paso 1: Preparación del Entorno
 1. **Estructura del libro**:
@@ -85,13 +88,15 @@
    - Tipo: Doughnut Chart
    - Muestra relación entre Income, Cars y Commute Distance
 
+   ![image](https://github.com/user-attachments/assets/9772b40d-e5c5-4364-b844-d2c5ab72349e)
+
+
 ## 🖥️ Paso 5: Dashboard Interactivo
 1. **Diseño base**:
    - Eliminé gridlines (View > Show > Gridlines)
    - Creé un header con merge cells y formato profesional
 
-   ![Header dashboard](https://i.imgur.com/ejemplo5.png)  
-   *Captura: Diseño inicial del dashboard*
+   ![image](https://github.com/user-attachments/assets/1bca8ed9-02ae-4a64-a172-f0cecececf24)
 
 2. **Organización de gráficos**:
    - Alinear gráficos con:
@@ -103,15 +108,16 @@
      1. Marital Status
      2. Region
      3. Education
+     4. Commute Distance
    - Conecté todos los filtros a cada tabla dinámica
 
-   ![Filtros](https://i.imgur.com/ejemplo6.png)  
-   *Captura: Dashboard final con filtros aplicados*
+   ![image](https://github.com/user-attachments/assets/cc53aa7d-58c4-46eb-95c9-e47d4674905d)
 
 ## 🔎 Hallazgos Clave
-- **Casados vs Solteros**: Los compradores casados tienen ingresos promedio más altos
-- **Edad**: Personas de mediana edad (31-54) compran más bicicletas
-- **Distancia**: Clientes que viven a 5-10 millas son los que más compran
+- **Casados vs Solteros**: Los compradores casados tienen ingresos promedio más altos.
+- **Edad**: Personas de mediana edad (31-54) compran más bicicletas.
+- **Distancia**: Clientes que viven de 0 a 1 milla son los que más compran.
+- **Vehículos**: Clientes que no poseen vehículos compran más.
 
 ## 💡 Cómo Personalizar
 1. Para cambiar rangos de edad, modifica la fórmula en "Age Brackets"
@@ -119,15 +125,3 @@
    `PivotChart Analyze > Insert Slicer`
 3. Cambia colores con:  
    `Chart Design > Change Colors`
-
-## 📌 Notas sobre las capturas:
-1. **Reemplaza las URLs** de ejemplo (i.imgur.com/ejemploX.png) con tus propias capturas
-2. **Sugerencias para las imágenes**:
-   - Usa nombres descriptivos como `dashboard_final.png`
-   - Asegúrate que se vean claramente:
-     - Las fórmulas importantes
-     - El before/after de limpieza de datos
-     - Los filtros en acción
-3. **Herramientas recomendadas**:
-   - Para capturas: Lightshot o Snipping Tool
-   - Para edición: Paint o Canva
