@@ -82,6 +82,7 @@ This project provides a step-by-step guide to creating an interactive dashboard 
 2. **Doughnut Chart (Ideal Customer)**:
    - Type: Doughnut Chart  
    - Shows the relationship between Income, Cars, and Commute Distance
+   - The relevant information to show here are the bigger squares/bars that hold the bigger values of people who bought and shows their same condition of salary, commute distance and if they own a vehicle
 
    ![image](https://github.com/user-attachments/assets/9772b40d-e5c5-4364-b844-d2c5ab72349e)
 
