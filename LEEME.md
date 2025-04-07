@@ -89,6 +89,7 @@
 2. **Gráfico de anillos (cliente ideal)**:
    - Tipo: Doughnut Chart
    - Muestra relación entre Income, Cars y Commute Distance
+   - La información relevante para mostrar aquí son los cuadrados/barras más grandes que contienen los valores más grandes de las personas que compraron y muestran su misma condición de salario, distancia de viaje y si poseen un vehículo
 
    ![image](https://github.com/user-attachments/assets/9772b40d-e5c5-4364-b844-d2c5ab72349e)
 
