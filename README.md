@@ -1,5 +1,7 @@
 # Excel Project: Motorcycle Sales Analysis
 
+![image](https://github.com/user-attachments/assets/e5274d65-e985-4cc0-9d08-827cd0e3be48)
+
 ## 📌 Introduction
 This project provides a step-by-step guide to creating an interactive dashboard in Excel to analyze motorcycle purchase patterns using professional data analysis techniques. Here's what the initial dataset looks like:
 
