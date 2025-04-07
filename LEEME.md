@@ -1,6 +1,8 @@
 
 # Proyecto Excel: Análisis de Ventas de Motocicletas
 
+![image](https://github.com/user-attachments/assets/e7330fc6-34b8-4d9d-a849-5eb6037ba4ce)
+
 ## 📌 Introducción
  Este proyecto guía paso a paso la creación de un dashboard interactivo en Excel para analizar patrones de compra de motocicletas, utilizando técnicas profesionales de análisis de datos. Así se ve el Dataset Inicial:
 
